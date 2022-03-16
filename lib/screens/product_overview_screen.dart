@@ -11,7 +11,15 @@ class _product_overview_screenState extends State<product_overview_screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Center(),
+      body: Center(
+        child: Text(
+          ''
+              ''
+              'I    '
+              'Love    '
+              'You'
+        ),
+      ),
     );
   }
 }
